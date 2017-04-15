@@ -39,6 +39,7 @@ public class ReligiousFragment extends Fragment {
         RecyclerView itemRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_religious);
         SemaranganRecyclerAdapter adapter = new SemaranganRecyclerAdapter(getActivity(), religiouss, SemaranganRecyclerAdapter.TYPE_1);
         itemRecyclerView.setAdapter(adapter);
+
         return view;
     }
 }

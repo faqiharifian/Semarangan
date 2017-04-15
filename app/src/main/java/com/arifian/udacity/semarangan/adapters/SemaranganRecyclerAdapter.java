@@ -1,6 +1,7 @@
 package com.arifian.udacity.semarangan.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.arifian.udacity.semarangan.DetailActivity;
 import com.arifian.udacity.semarangan.R;
 import com.arifian.udacity.semarangan.entities.Location;
 
@@ -49,7 +51,7 @@ public class SemaranganRecyclerAdapter extends RecyclerView.Adapter<SemaranganRe
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Location location = locations.get(position);
+        final Location location = locations.get(position);
         if(Build.VERSION.SDK_INT >= 21)
             holder.locationImageView.setImageDrawable(context.getDrawable(location.getImage()));
         else
@@ -58,6 +60,15 @@ public class SemaranganRecyclerAdapter extends RecyclerView.Adapter<SemaranganRe
         if (type == TYPE_2){
             holder.locationCategoryTextView.setText(context.getString(location.getCategory()));
         }
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.putExtra(DetailActivity.KEY_LOCATION, location);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

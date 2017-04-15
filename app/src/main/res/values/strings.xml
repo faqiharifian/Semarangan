@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Semarangan</string>
+    <string name="menu_maps">Maps</string>
 
     <string name="religious_1_name">The Great Mosque of Central Java</string>
     <string name="religious_1_description">The Great Mosque of Central Java (Indonesian: Masjid Agung Jawa Tengah) is a mosque in the city of Semarang, Central Java. \n\n
