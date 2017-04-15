@@ -7,5 +7,6 @@
     <dimen name="default_space">4dp</dimen>
     <dimen name="default_card_radius">16dp</dimen>
 
-    <dimen name="religious_item_height">200dp</dimen>
+    <dimen name="item_type_1_height">200dp</dimen>
+    <dimen name="item_type_2_height">100dp</dimen>
 </resources>

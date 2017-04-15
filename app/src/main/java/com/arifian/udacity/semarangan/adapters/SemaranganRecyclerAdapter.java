@@ -30,7 +30,7 @@ public class SemaranganRecyclerAdapter extends RecyclerView.Adapter<SemaranganRe
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_list_religious, parent, false);
+                .inflate(R.layout.item_list_type_1, parent, false);
         return new ViewHolder(v);
     }
 

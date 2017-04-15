@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_type_2_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:foreground="?android:selectableItemBackground"
+    app:cardCornerRadius="@dimen/default_card_radius">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/view_center"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/religious_2_image"/>
+        <View
+            android:id="@+id/view_center"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/text_location_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/view_center"
+            android:layout_alignBottom="@+id/view_center"
+            android:paddingLeft="@dimen/default_space"
+            android:gravity="left|bottom"
+            android:background="#BF000000"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:text="BLENDUK"/>
+        <TextView
+            android:id="@+id/text_location_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/view_center"
+            android:layout_alignTop="@+id/view_center"
+            android:paddingLeft="@dimen/default_space"
+            android:gravity="left|top"
+            android:background="#BF000000"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="BLENDUK"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
