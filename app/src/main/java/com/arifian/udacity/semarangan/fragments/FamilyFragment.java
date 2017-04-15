@@ -32,7 +32,7 @@ public class FamilyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_religious, container, false);
+        View view = inflater.inflate(R.layout.fragment_family, container, false);
 
         List<Location> families = new ArrayList<>();
         families.add(new Location(R.string.family_1_name, R.drawable.family_1_image, R.string.family_1_description, R.string.family_1_latitude, R.string.family_1_longitude));
@@ -42,7 +42,7 @@ public class FamilyFragment extends Fragment {
         families.add(new Location(R.string.family_5_name, R.drawable.family_5_image, R.string.family_5_description, R.string.family_5_latitude, R.string.family_5_longitude));
         families.add(new Location(R.string.family_6_name, R.drawable.family_6_image, R.string.family_6_description, R.string.family_6_latitude, R.string.family_6_longitude));
 
-        RecyclerView itemRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_religious);
+        RecyclerView itemRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_family);
         int spacingInPixels = getResources().getDimensionPixelSize(R.dimen.default_space);
         itemRecyclerView.addItemDecoration(new SpacesItemDecoration(spacingInPixels));
 
