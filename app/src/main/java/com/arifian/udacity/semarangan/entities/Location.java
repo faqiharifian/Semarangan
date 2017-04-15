@@ -5,7 +5,7 @@ package com.arifian.udacity.semarangan.entities;
  */
 
 public class Location {
-    private int name, image, description, latitude, logintude;
+    private int name, category, image, description, latitude, logintude;
 
     public Location(int name, int image, int description, int latitude, int logintude) {
         this.name = name;
@@ -15,8 +15,21 @@ public class Location {
         this.logintude = logintude;
     }
 
+    public Location(int name, int category, int image, int description, int latitude, int logintude) {
+        this.name = name;
+        this.category = category;
+        this.image = image;
+        this.description = description;
+        this.latitude = latitude;
+        this.logintude = logintude;
+    }
+
     public int getName() {
         return name;
+    }
+
+    public int getCategory() {
+        return category;
     }
 
     public int getImage() {

@@ -48,7 +48,7 @@ public class HistoryFragment extends Fragment {
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getActivity(), 2);
         itemRecyclerView.setLayoutManager(layoutManager);
 
-        SemaranganRecyclerAdapter adapter = new SemaranganRecyclerAdapter(getActivity(), histories);
+        SemaranganRecyclerAdapter adapter = new SemaranganRecyclerAdapter(getActivity(), histories, SemaranganRecyclerAdapter.TYPE_1);
         itemRecyclerView.setAdapter(adapter);
 
         return view;

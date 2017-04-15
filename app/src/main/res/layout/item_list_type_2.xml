@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/item_type_2_height"
+    android:layout_marginTop="@dimen/default_space"
+    android:layout_marginBottom="@dimen/default_space"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:clickable="true"
     android:foreground="?android:selectableItemBackground"

@@ -37,7 +37,7 @@ public class ReligiousFragment extends Fragment {
         religiouss.add(new Location(R.string.religious_7_name, R.drawable.religious_7_image, R.string.religious_7_description, R.string.religious_7_latitude, R.string.religious_7_longitude));
 
         RecyclerView itemRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_religious);
-        SemaranganRecyclerAdapter adapter = new SemaranganRecyclerAdapter(getActivity(), religiouss);
+        SemaranganRecyclerAdapter adapter = new SemaranganRecyclerAdapter(getActivity(), religiouss, SemaranganRecyclerAdapter.TYPE_1);
         itemRecyclerView.setAdapter(adapter);
         return view;
     }

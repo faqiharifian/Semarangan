@@ -49,7 +49,7 @@ public class FamilyFragment extends Fragment {
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getActivity(), 2);
         itemRecyclerView.setLayoutManager(layoutManager);
 
-        SemaranganRecyclerAdapter adapter = new SemaranganRecyclerAdapter(getActivity(), families);
+        SemaranganRecyclerAdapter adapter = new SemaranganRecyclerAdapter(getActivity(), families, SemaranganRecyclerAdapter.TYPE_1);
         itemRecyclerView.setAdapter(adapter);
 
         return view;

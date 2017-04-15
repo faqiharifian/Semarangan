@@ -19,18 +19,31 @@ import java.util.List;
  */
 
 public class SemaranganRecyclerAdapter extends RecyclerView.Adapter<SemaranganRecyclerAdapter.ViewHolder> {
-    List<Location> locations;
-    Context context;
+    public static final int TYPE_1 = 1;
+    public static final int TYPE_2 = 2;
+    private List<Location> locations;
+    private Context context;
+    private int type;
 
-    public SemaranganRecyclerAdapter(Context context, List<Location> locations) {
+    public SemaranganRecyclerAdapter(Context context, List<Location> locations, int type) {
         this.locations = locations;
         this.context = context;
+        this.type = type;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_list_type_1, parent, false);
+        View v;
+        switch (type){
+            case TYPE_2:
+                v = LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.item_list_type_2, parent, false);
+                break;
+            default:
+                v = LayoutInflater.from(parent.getContext())
+                        .inflate(R.layout.item_list_type_1, parent, false);
+                break;
+        }
         return new ViewHolder(v);
     }
 
@@ -42,6 +55,9 @@ public class SemaranganRecyclerAdapter extends RecyclerView.Adapter<SemaranganRe
         else
             holder.locationImageView.setImageDrawable(context.getResources().getDrawable(location.getImage()));
         holder.locationNameTextView.setText(context.getString(location.getName()));
+        if (type == TYPE_2){
+            holder.locationCategoryTextView.setText(context.getString(location.getCategory()));
+        }
     }
 
     @Override
@@ -51,13 +67,13 @@ public class SemaranganRecyclerAdapter extends RecyclerView.Adapter<SemaranganRe
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
         private ImageView locationImageView;
-        private TextView locationNameTextView, locationDescriptrionTextView;
+        private TextView locationNameTextView, locationCategoryTextView;
 
         public ViewHolder(View itemView) {
             super(itemView);
             locationImageView = (ImageView) itemView.findViewById(R.id.image_location);
             locationNameTextView = (TextView) itemView.findViewById(R.id.text_location_name);
-//            locationDescriptrionTextView = (TextView) itemView.findViewById(R.id.text_location_description);
+            locationCategoryTextView = (TextView) itemView.findViewById(R.id.text_location_category);
         }
     }
 }
