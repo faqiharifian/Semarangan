@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">Semarangan</string>
+
+    <string name="religious_1_name">The Great Mosque of Central Java</string>
+    <string name="religious_1_description">The Great Mosque of Central Java (Indonesian: Masjid Agung Jawa Tengah) is a mosque in the city of Semarang, Central Java. \n\n
+        The mosque complex covers 10 hectares (25 acres). There are three central buildings arranged in the shape of a U, with the domed mosque at the centre; all buildings have pitched, tiled roofs, while the central mosque has four minarets. The central roof resembles the roof of a "joglo", the traditional Javanese house, and symbolises the rising steps toward heaven or to gain God\'s blessing. The long buildings forming the arms of the U house a library and auditorium respectively; the auditorium can hold up to 2,000 people.\n\n
+        In the central courtyard are six large hydraulically operated umbrellas, inspired by the ones at Al-Masjid al-Nabawi in Medina, which are used to protect worshipers; the six umbrellas represent the six tenets of iman. More than 15,000 worshipers can fit in the 7,669-square-metre (82,550 sq ft) prayer area. At the open end of the U is a series of Arabic-style arches, with Arabic calligraphs of 99 attributes of Allah, stood on 25 pillars, each representing one of the named prophets in Islam. Beyond the arches is an inscription on a 3.2-metre (10 ft) tall, 7.8 ton stone from Mount Merapi, designed by Nyoman M. Alim.\n\n
+        Nearby is the 99-metre-tall (325 ft) Asmaul Husna Tower, designed to resemble the minaret of a mosque in Kudus; the height represents the 99 attributes of Allah. Used for calling Muslims to prayer, the tower also houses a radio station for da\'wah and museum at its base and restaurant and observation deck near its summit. The upper levels are accessible by lift. On premises there is also a 23-room hotel.
+    </string>
+    <string name="religious_1_latitude">-6.9835249</string>
+    <string name="religious_1_longitude">110.4430906</string>
+
+    <string name="religious_2_name">Blenduk Church</string>
+    <string name="religious_2_description">The Immanuel Protestant Church of Western Indonesia (Gereja Protestan Indonesia Barat Immanuel), better known as Blenduk Church (Gereja Blenduk) is a Protestant church in Semarang, Central Java, Indonesia. Built in 1753, it is the oldest church in the province.\n\n
+        Blenduk Church, at 32 Letjen Suprapto Street in the old town of Semarang, Central Java, is located in a small courtyard between former office buildings. The Jiwasraya building is located to the south, across the street, while the Kerta Niaga offices are to its west.\n\n
+        The octagonal church, built on a stone foundation and with single-layer brick walls, has its ground floor at street level. It is topped by a large, copper-skinned dome, from which it gets its common name; the Javanese word mblenduk means dome. The dome is supported by 32 steel beams, 8 large and 24 small. Two towers, square at the base and slowly rounding until topped with a small dome, are located on either side of the main entrance, while a cornice consisting of horizontal lines runs around the building; Roman-style porticoes covered in saddle-shaped roofs are located on its eastern, southern and western faces. Blenduk also features etched and stained glass windows, as well as wood-panel double doors at the south-facing entrance.\n\n
+        The wooden pews inside Blenduk have rattan seats, while the pulpit is completely made of wood and located on an octagonal platform made of teak. A nonfunctional Baroque pipe organ from the 1700s is also located inside. The floor is covered in black, yellow, and white tiles. In the northern part of the interior is a spiral staircase, etched with name of its manufacturer, Pletterij den haag (Rolling Mill, The Hague), which leads to the second floor.
+    </string>
+    <string name="religious_2_latitude">-6.9682004</string>
+    <string name="religious_2_longitude">110.4252389</string>
+
+    <string name="religious_3_name">Sam Poo Kong</string>
+    <string name="religious_3_description">Sam Poo Kong also known as Gedung Batu Temple, is the oldest Chinese temple in Semarang, Central Java, Indonesia. Originally established by the Chinese Muslim explorer Zheng He (also known as Sanbao), it is now shared by Indonesians of multiple religious denominations, including Muslims and Buddhists, and ethnicities, including Chinese and Javanese.\n\n
+        The Sam Poo Kong temple complex includes five temples in a mixed Chinese and Javanese architectural style. The temples are Sam Poo Kong (the oldest), Tho Tee Kong, Kyai Juru Mudi Temple, Kyai Jangkar Temple, and Kyai Cundrik Bumi Temple. An additional worship site, Mbah Kyai Tumpeng, is also located within the complex. The buildings are spread over 3.2 hectares (7.9 acres).\n\n
+        Tho Tee Kong (also known as Dewa Bumi Temple), is located just within the large gate at the northern end of the complex; it is used by those who seek the blessings of the earth god Tu Di Gong. Next to Tho Tee Kong is Kyai Juru Mudi Temple, the burial site of Wang Jing Hong, one of Zheng He\'s deputies. It is often frequented by people looking for success in business.\n\n
+        The main temple is built directly in front of the cave, located south of Kyai Juru Mudi. In the cave itself are an altar, fortune-telling equipment, and a small statue of Zheng He; underneath the altar is a well that is said to never go dry and to be capable of healing various ailments. Before the 2002 renovations, the temple measured 16 by 16 metres (52 by 52 ft); it now measures 34 by 34 metres (112 by 112 ft).\n\n
+        Further south is the Kyai Jankar Temple, named after a sacred anchor used by Zheng He which is held inside. The temple also contains an altar to those of Zheng\'s crewmen who died while fulfilling their duties. The southernmost temple is Kyai Cundrik Bumi, which is used to worship a weapon used by Zheng. Nearby is Mbah Kyai Tumpeng, a prayer site used by people wishing for their well-being.\n\n
+    </string>
+    <string name="religious_3_latitude">-6.9962947</string>
+    <string name="religious_3_longitude">110.3958059</string>
+
+    <string name="religious_4_name">Pagoda Avalokitesvara</string>
+    <string name="religious_4_description">Pagoda Avalokitesvara di Vihara Buddhagaya atau lebih sering disebut Watugong Semarang ini dibangun tujuh tingkat dengan tinggi 45 meter, dan tercatat oleh Museum Rekor Indonesia MURI sebagai pagoda tertinggi di Indonesia.</string>
+    <string name="religious_4_latitude">-7.0869594</string>
+    <string name="religious_4_longitude">110.4075289</string>
+
+    <string name="religious_5_name">Vihara Mahavira Graha</string>
+    <string name="religious_5_description">Berada daerah Marina, sebelum Pantai Marina dan dibangun mulai akhir tahun 2001 di atas lahan seluas 1.688 ha. Terdiri atas tujuh lantai, dan dengan keunikannya memiliki 88 arca Budha, Vihara ini merupakan vihara yang terbesar di Jawa Tengah.</string>
+    <string name="religious_5_latitude">-6.9581727</string>
+    <string name="religious_5_longitude">110.3898949</string>
+
+    <string name="religious_6_name">Tay Kak Sie</string>
+    <string name="religious_6_description">Tay Kak Sie (simplified Chinese: 大觉寺; traditional Chinese: 大覺寺; pinyin: Dà jué sì) is a Taoist temple located at Jalan Gang Lombok, Semarang. The temple was established in 1746.[1] This was originally only to worship the Goddess of Mercy, Guan Yin. This pagoda later developed into a large temple also worshiped many deities Tao.\n\n
+        Tay Kak Sie name written on the signboard at the entrance of a large temple, with the record year of the reign of Emperor Dao Guang (Too Kong in Hokkien language) 1821-1850 of the Qing Dynasty is a name that means "Temple of Supreme Consciousness".\n\n
+    </string>
+    <string name="religious_6_latitude">-6.9741441</string>
+    <string name="religious_6_longitude">110.425762</string>
+
+    <string name="religious_7_name">Pura Agung Giri Natha</string>
+    <string name="religious_7_description">Tempat ini memiliki nama resmi Pura Hindu Dharma Giri Natha, berada di Jalan Sumbing No 12 Gajah Mungkur. Dari sini salah satu view terbaik di pusat kota Semarang terlihat. Nuansa khas Bali dapat dirasakan pura ini. Dengan ornamen khas hindu menghiasi sudut – sudut Pura.</string>
+    <string name="religious_7_latitude">-6.9989651</string>
+    <string name="religious_7_longitude">110.4084164</string>
 </resources>
