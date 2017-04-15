@@ -4,7 +4,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.arifian.udacity.semarangan.fragments.BeachFragment;
 import com.arifian.udacity.semarangan.fragments.FamilyFragment;
 import com.arifian.udacity.semarangan.fragments.HistoryFragment;
 import com.arifian.udacity.semarangan.fragments.NatureFragment;
@@ -19,8 +18,7 @@ public class TabFragmentPagerAdapter extends FragmentPagerAdapter {
             ReligiousFragment.TITLE,
             FamilyFragment.TITLE,
             HistoryFragment.TITLE,
-            NatureFragment.TITLE,
-            BeachFragment.TITLE,
+            NatureFragment.TITLE
     };
 
     public TabFragmentPagerAdapter(FragmentManager fm) {
@@ -42,9 +40,6 @@ public class TabFragmentPagerAdapter extends FragmentPagerAdapter {
                 break;
             case 3:
                 fragment = new NatureFragment();
-                break;
-            case 4:
-                fragment = new BeachFragment();
                 break;
             default:
                 fragment = null;
